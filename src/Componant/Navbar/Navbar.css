@@ -1,37 +1,41 @@
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 20px 17px;
-    align-items: center;
-    position: fixed;
+    
     top: 0;
     right: 0;
     left: 0;
-    border-bottom: 1px solid;
-
-
+    height: 100px; /* Add height to increase the navbar size */
+    background-color: #161513; /* Optional: Add a background color to make it stand out */
+    padding: 0 20px; /* Adjust padding for more space inside */
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
 }
-.img{
+
+.img {
     filter: invert(1);
     width: 80px;
-    margin: 50px;
+    margin: 20px; /* Adjust margin if needed */
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 60px;
     font-size: 20px;
 }
-.btn{
+
+.btn {
     padding: 15px 30px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36% , #B923E1);
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
 }
-.btn:hover{
+
+.btn:hover {
     transform: scale(1.05);
 }
