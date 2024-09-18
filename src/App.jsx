@@ -3,6 +3,7 @@ import Navbar from './Componant/Navbar/Navbar';  // Correct the path if necessar
 import Hero from './Componant/Hero/Hero';
 import About from './Componant/About/About';
 import Servecies from './Componant/Servecies/Servecies';
+import Mywork from './Componant/MyWork/Mywork';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero/>
       <About/>
       <Servecies/>
+      <Mywork/>
     </div>
   );
 }
