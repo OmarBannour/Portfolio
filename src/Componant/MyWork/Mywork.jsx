@@ -6,7 +6,7 @@ import img2 from "../../assets/arrow_icon.svg"
 
 const Mywork = () => {
   return (
-    <div className='mywork'>
+    <div id='work' className='mywork'>
       <div className="title">
         <h1>MY LATEST WORK</h1>
         <img src={img1} alt="pattern" />

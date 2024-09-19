@@ -6,7 +6,7 @@ import img2 from "../../assets/arrow_icon.svg"
 
 const Servecies = () => {
   return (
-    <div className='servecies'>
+    <div id='service' className='servecies'>
       <div className="title">
         <h1>My Services</h1>
         <img src={img1} alt="" />
